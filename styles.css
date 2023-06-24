@@ -1,8 +1,11 @@
 body {
   font-family: Arial, sans-serif;
-  margin: 0;
+  
   padding: 20px;
-  background-color: #f2f2f2;
+  
+  background-image: linear-gradient(to left ,hsl(273, 75%, 66%),hsl(240, 73%, 65%));
+  background-clip: content-box;
+
 }
 
 h2 {
@@ -12,7 +15,9 @@ h2 {
 table {
   margin: 0 auto;
 }
-
+hr{
+  color: white;
+}
 form {
   max-width: 400px;
   margin: auto auto;
@@ -22,7 +27,13 @@ form {
   background-color: #ffffff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding-bottom: 3%;
-  margin-top: 4%;
+  margin-top: 3%;
+  border-radius: 2%;
+  color: hsl(237, 12%, 33%);
+  -webkit-box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.75);
+box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.75);
+
 }
 
 form h2 {
@@ -117,6 +128,11 @@ a {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding-bottom: 3%;
   gap: 10px;
+  border-radius: 2%;
+  -webkit-box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.75);
+box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.75);
+
 }
 
 .details h3 {
